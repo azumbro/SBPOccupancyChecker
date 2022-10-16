@@ -1,20 +1,20 @@
 {
-    "name": "masslivestreamviewlog",
-    "version": "0.1.0",
-    "bin": {
-      "lambdaapi": "bin/masslivestream_view_log.js"
-    },
-    "scripts": {
-      "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
-      "cdk": "cdk",
-      "format": "prettier --write ./bin/*.js ./lib/*.js ./resources/*.js"
-    },
-    "devDependencies": {
-      "aws-cdk": "2.25.0",
-      "prettier": "^2.4.1"
-    },
-    "dependencies": {
-      "aws-cdk-lib": "2.25.0",
-      "constructs": "^10.0.0"
-    }
+  "name": "sbpoccupancy",
+  "version": "0.1.0",
+  "bin": {
+    "lambdaapi": "bin/sbp_occupancy.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "format": "prettier --write ./bin/*.js ./lib/*.js ./resources/*.js"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.25.0",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.25.0",
+    "constructs": "^10.0.0"
   }
+}
