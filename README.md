@@ -1,5 +1,7 @@
 # SBP Occupancy Checker
 
+## As of late 2023, Seattle Boulder Project's website no longer shows occupancy numbers and this project has been retired.
+
 A small AWS service that tracks the occupancy for [Seattle Boulder Project](https://seattleboulderingproject.com/) locations.
 
 One aspect of the service is pulling the current occupancy from [their website](https://seattleboulderingproject.com/occupancy) and displaying this information in a table view. The other is a history table that records past occupancy statistics and displays the occupancy from the last hour and from the next hour one week ago to help one extrapolate how the future occupancy might look.
